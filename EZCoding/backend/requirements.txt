@@ -1,4 +1,9 @@
 fastapi
 uvicorn
 transformers
-guesslang
+pygments
+requests
+python-multipart
+aiofiles
+gunicorn
+aiohttp
