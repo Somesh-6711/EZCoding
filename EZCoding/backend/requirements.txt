@@ -1,8 +1,9 @@
-openai>=1.0.0
-transformers
-torch
 fastapi
 uvicorn
+transformers
+torch
 pygments
 python-multipart
 aiofiles
+openai>=1.0.0
+python-dotenv
