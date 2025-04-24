@@ -1,9 +1,8 @@
+openai>=1.0.0
+transformers
+torch
 fastapi
 uvicorn
-transformers
 pygments
-requests
 python-multipart
 aiofiles
-gunicorn
-aiohttp

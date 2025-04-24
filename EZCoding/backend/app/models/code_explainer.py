@@ -3,48 +3,39 @@ import torch
 from functools import lru_cache
 from transformers import pipeline
 
+# Try to import the new OpenAI client
 try:
-    import openai
+    from openai import OpenAI
 except ImportError:
-    openai = None
+    OpenAI = None
 
 @lru_cache()
 def get_summarizer():
     device = 0 if torch.cuda.is_available() else -1
-    return pipeline(
-        "summarization",
-        model="Salesforce/codet5-base",
-        device=device,
-    )
+    return pipeline("summarization", model="Salesforce/codet5-base", device=device)
 
 def explain_code_logic(code: str, language: str) -> str:
-    """
-    If OPENAI_API_KEY is set, use OpenAI's ChatCompletion for high-quality explanations.
-    Otherwise fallback to the HF summarization pipeline.
-    """
-    # 1) If we have an OpenAI key, call the API
     api_key = os.getenv("OPENAI_API_KEY")
-    if api_key and openai is not None:
-        openai.api_key = api_key
-        resp = openai.ChatCompletion.create(
+    if api_key and OpenAI is not None:
+        # Initialize the new client
+        client = OpenAI(api_key=api_key)
+        resp = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are an expert programming tutor."},
                 {
                     "role": "user",
                     "content": (
-                        f"Please explain the following {language} code step by step, "
-                        "in simple terms, line by line:\n\n"
-                        f"{code}"
+                        f"Please explain this {language} code step by step, line by line:\n\n{code}"
                     ),
                 },
             ],
-            max_tokens=512,
             temperature=0.0,
+            max_tokens=512,
         )
         return resp.choices[0].message.content.strip()
 
-    # 2) Otherwise fallback to HF summarization
+    # Fallback to local summarizer
     summarizer = get_summarizer()
     summary = summarizer(
         code,
