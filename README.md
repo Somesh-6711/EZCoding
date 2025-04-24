@@ -2,9 +2,6 @@
 
 An LLM-powered code explainer. Paste or upload code → AI tutor explains it line by line.
 
-## 🚀 Live Demo
-- Frontend: https://your-vercel-url.vercel.app
-- Backend API: https://your-railway-url.up.railway.app/docs
 
 ## 🛠 Tech Stack
 - **Frontend:** React (create-react-app), Axios  
