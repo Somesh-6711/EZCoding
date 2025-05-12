@@ -61,10 +61,8 @@ Once both are live, link them in your README under “Live Demo.”
 
 ### I am a student and still learning and trying to be better.
 
-![Screenshot 2025-04-23 205928](https://github.com/user-attachments/assets/0045e046-5185-4f02-b4c2-27d6046f9af1)
 
-
-![Screenshot 2025-04-24 160208](https://github.com/user-attachments/assets/01ea99d3-3c5b-4099-ad9b-291ede04f6bb)
-
-![Screenshot 2025-04-24 160349](https://github.com/user-attachments/assets/835ea96b-00bb-47bc-910c-05a84331f509)
-![Screenshot 2025-04-24 160400](https://github.com/user-attachments/assets/6705d4c1-b446-45e5-8a93-cf48ade77e2c)
+![Screenshot 2025-04-24 160400](https://github.com/user-attachments/assets/6cd26aff-1ceb-4150-904e-f01fb57147ef)
+![Screenshot 2025-04-24 160349](https://github.com/user-attachments/assets/51bcd1a4-e6b0-43ac-b02f-81a6530097c8)
+![Screenshot 2025-04-24 160208](https://github.com/user-attachments/assets/09e02f4e-6271-474a-b6e3-0e77ff05fbc1)
+![Screenshot 2025-04-23 205928](https://github.com/user-attachments/assets/7e5925d7-aeeb-4f9c-b4d5-8f3ce82718b7)
