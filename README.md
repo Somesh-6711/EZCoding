@@ -60,3 +60,11 @@ Once both are live, link them in your README under “Live Demo.”
 - ✔️ **Deployment** guide.
 
 ### I am a student and still learning and trying to be better.
+
+
+![Screenshot 2025-04-23 205928](https://github.com/user-attachments/assets/451094c1-9e4e-43a0-b00f-8f50a9ee80ba)
+![Screenshot 2025-04-24 160208](https://github.com/user-attachments/assets/86fdb011-5d6b-4ec4-91c4-a822c05ba463)
+![Screenshot 2025-04-24 160349](https://github.com/user-attachments/assets/dcf299ce-28bb-4e38-946f-f030cb99f578)
+![Screenshot 2025-04-24 160400](https://github.com/user-attachments/assets/37e73581-3b55-4839-bf88-9185171bb59e)
+
+
