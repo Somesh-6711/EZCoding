@@ -60,9 +60,10 @@ Once both are live, link them in your README under “Live Demo.”
 - ✔️ **React UI** that handles paste or upload seamlessly.  
 - ✔️ **README** for recruiters & users.  
 - ✔️ **Deployment** guide.
-```
-### I am a student and still learning and trying to be better.
+---
 
+### I am a student and still learning and trying to be better.
+> Results Screenshots
 ![Screenshot 2025-04-24 160400](https://github.com/user-attachments/assets/6cd26aff-1ceb-4150-904e-f01fb57147ef)
 ![Screenshot 2025-04-24 160349](https://github.com/user-attachments/assets/51bcd1a4-e6b0-43ac-b02f-81a6530097c8)
 ![Screenshot 2025-04-24 160208](https://github.com/user-attachments/assets/09e02f4e-6271-474a-b6e3-0e77ff05fbc1)
