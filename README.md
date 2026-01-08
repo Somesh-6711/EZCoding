@@ -26,6 +26,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env       # add your OPENAI_API_KEY here
 uvicorn app.main:app --reload
+```
 
 ### Backend
 ```bash
@@ -33,6 +34,7 @@ cd frontend
 npm install
 cp .env.example .env       # set REACT_APP_API_URL=http://localhost:8000
 npm start
+```
 
 
 ## 5️⃣ Deployment
@@ -60,6 +62,7 @@ Once both are live, link them in your README under “Live Demo.”
 - ✔️ **Deployment** guide.
 ```
 ### I am a student and still learning and trying to be better.
+> results
 ![Screenshot 2025-04-24 160400](https://github.com/user-attachments/assets/6cd26aff-1ceb-4150-904e-f01fb57147ef)
 ![Screenshot 2025-04-24 160349](https://github.com/user-attachments/assets/51bcd1a4-e6b0-43ac-b02f-81a6530097c8)
 ![Screenshot 2025-04-24 160208](https://github.com/user-attachments/assets/09e02f4e-6271-474a-b6e3-0e77ff05fbc1)
